@@ -51,7 +51,7 @@ int main() {
                 editar_funcionario(lista_funcionarios, num_funcionarios);
                 salvar_dados(lista_funcionarios, num_funcionarios);
                 break;
-            case 4: // Nova Opção
+            case 4:
                 excluir_funcionario(&lista_funcionarios, &num_funcionarios);
                 salvar_dados(lista_funcionarios, num_funcionarios);
                 break;
